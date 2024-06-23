@@ -1,0 +1,289 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.foodtime_compose0518"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="34"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.foodtime_compose0518.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.foodtime_compose0518.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:5:5-91:19
+18        android:allowBackup="true"
+18-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] /Users/ricky/.gradle/caches/transforms-3/d07780cae5847b24e8c2f5ee0981690d/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Foodtime_compose0518" >
+29-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:13:9-58
+30        <activity
+30-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:15:9-19:65
+31            android:name="com.example.foodtime_compose0518.trytrysee"
+31-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:16:13-38
+32            android:exported="false"
+32-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:17:13-37
+33            android:label="@string/title_activity_trytrysee"
+33-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:18:13-61
+34            android:theme="@style/Theme.Foodtime_compose0518" />
+34-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:19:13-62
+35        <activity
+35-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:20:9-24:65
+36            android:name="com.example.foodtime_compose0518.LogoutScreen"
+36-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:21:13-41
+37            android:exported="false"
+37-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:22:13-37
+38            android:label="@string/title_activity_logout_screen"
+38-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:23:13-65
+39            android:theme="@style/Theme.Foodtime_compose0518" />
+39-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:24:13-62
+40        <activity
+40-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:25:9-29:65
+41            android:name="com.example.foodtime_compose0518.myselfScreen"
+41-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:26:13-41
+42            android:exported="false"
+42-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:27:13-37
+43            android:label="@string/title_activity_myself_screen"
+43-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:28:13-65
+44            android:theme="@style/Theme.Foodtime_compose0518" />
+44-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:29:13-62
+45        <activity
+45-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:30:9-34:65
+46            android:name="com.example.foodtime_compose0518.NormalAddScreen"
+46-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:31:13-44
+47            android:exported="false"
+47-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:32:13-37
+48            android:label="@string/title_activity_normal_add_screen"
+48-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:33:13-69
+49            android:theme="@style/Theme.Foodtime_compose0518" />
+49-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:34:13-62
+50        <activity
+50-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:35:9-39:65
+51            android:name="com.example.foodtime_compose0518.NormalListScreen"
+51-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:36:13-45
+52            android:exported="false"
+52-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:37:13-37
+53            android:label="@string/title_activity_normal_list_screen"
+53-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:38:13-70
+54            android:theme="@style/Theme.Foodtime_compose0518" />
+54-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:39:13-62
+55        <activity
+55-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:40:9-44:65
+56            android:name="com.example.foodtime_compose0518.NormalList"
+56-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:41:13-39
+57            android:exported="false"
+57-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:42:13-37
+58            android:label="@string/title_activity_normal_list"
+58-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:43:13-63
+59            android:theme="@style/Theme.Foodtime_compose0518" />
+59-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:44:13-62
+60        <activity
+60-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:45:9-49:65
+61            android:name="com.example.foodtime_compose0518.AddHolidayScreen"
+61-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:46:13-45
+62            android:exported="false"
+62-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:47:13-37
+63            android:label="@string/title_activity_add_holiday_screen"
+63-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:48:13-70
+64            android:theme="@style/Theme.Foodtime_compose0518" />
+64-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:49:13-62
+65        <activity
+65-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:50:9-54:65
+66            android:name="com.example.foodtime_compose0518.HolidayDetailScreen"
+66-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:51:13-48
+67            android:exported="false"
+67-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:52:13-37
+68            android:label="@string/title_activity_holiday_detail_screen"
+68-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:53:13-73
+69            android:theme="@style/Theme.Foodtime_compose0518" />
+69-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:54:13-62
+70        <activity
+70-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:55:9-59:65
+71            android:name="com.example.foodtime_compose0518.HolidayScreen"
+71-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:56:13-42
+72            android:exported="false"
+72-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:57:13-37
+73            android:label="@string/title_activity_holiday_screen"
+73-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:58:13-66
+74            android:theme="@style/Theme.Foodtime_compose0518" />
+74-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:59:13-62
+75        <activity
+75-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:60:9-64:65
+76            android:name="com.example.foodtime_compose0518.FoodDetailScreen"
+76-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:61:13-45
+77            android:exported="false"
+77-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:62:13-37
+78            android:label="@string/title_activity_food_detail_screen"
+78-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:63:13-70
+79            android:theme="@style/Theme.Foodtime_compose0518" />
+79-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:64:13-62
+80        <activity
+80-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:65:9-69:65
+81            android:name="com.example.foodtime_compose0518.AddFragment"
+81-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:66:13-40
+82            android:exported="false"
+82-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:67:13-37
+83            android:label="@string/title_activity_add_fragment"
+83-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:68:13-64
+84            android:theme="@style/Theme.Foodtime_compose0518" />
+84-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:69:13-62
+85        <activity
+85-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:70:9-74:65
+86            android:name="com.example.foodtime_compose0518.Ingredient"
+86-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:71:13-39
+87            android:exported="false"
+87-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:72:13-37
+88            android:label="@string/title_activity_ingredient"
+88-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:73:13-62
+89            android:theme="@style/Theme.Foodtime_compose0518" />
+89-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:74:13-62
+90        <activity
+90-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:75:9-79:65
+91            android:name="com.example.foodtime_compose0518.MainActivity2"
+91-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:76:13-42
+92            android:exported="false"
+92-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:77:13-37
+93            android:label="@string/title_activity_main2"
+93-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:78:13-57
+94            android:theme="@style/Theme.Foodtime_compose0518" />
+94-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:79:13-62
+95        <activity
+95-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:80:9-90:20
+96            android:name="com.example.foodtime_compose0518.MainActivity"
+96-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:81:13-41
+97            android:exported="true"
+97-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:82:13-36
+98            android:label="@string/app_name"
+98-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:83:13-45
+99            android:theme="@style/Theme.Foodtime_compose0518" >
+99-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:84:13-62
+100            <intent-filter>
+100-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:85:13-89:29
+101                <action android:name="android.intent.action.MAIN" />
+101-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:86:17-69
+101-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:86:25-66
+102
+103                <category android:name="android.intent.category.LAUNCHER" />
+103-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:88:17-77
+103-->/Users/ricky/Foodtime/app/src/main/AndroidManifest.xml:88:27-74
+104            </intent-filter>
+105        </activity>
+106        <activity
+106-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/ricky/.gradle/caches/transforms-3/b11719998b7957cbb614bec24b6f2e93/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+107            android:name="androidx.compose.ui.tooling.PreviewActivity"
+107-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/ricky/.gradle/caches/transforms-3/b11719998b7957cbb614bec24b6f2e93/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+108            android:exported="true" />
+108-->[androidx.compose.ui:ui-tooling-android:1.6.7] /Users/ricky/.gradle/caches/transforms-3/b11719998b7957cbb614bec24b6f2e93/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+109        <activity
+109-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/ricky/.gradle/caches/transforms-3/ccf9c854e7f1e165b69e8af6ddc54669/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:23:9-25:39
+110            android:name="androidx.activity.ComponentActivity"
+110-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/ricky/.gradle/caches/transforms-3/ccf9c854e7f1e165b69e8af6ddc54669/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:24:13-63
+111            android:exported="true" />
+111-->[androidx.compose.ui:ui-test-manifest:1.6.7] /Users/ricky/.gradle/caches/transforms-3/ccf9c854e7f1e165b69e8af6ddc54669/transformed/ui-test-manifest-1.6.7/AndroidManifest.xml:25:13-36
+112
+113        <provider
+113-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+114            android:name="androidx.startup.InitializationProvider"
+114-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+115            android:authorities="com.example.foodtime_compose0518.androidx-startup"
+115-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+116            android:exported="false" >
+116-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+117            <meta-data
+117-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+118-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+119                android:value="androidx.startup" />
+119-->[androidx.emoji2:emoji2:1.3.0] /Users/ricky/.gradle/caches/transforms-3/797d47b1c9b88d4f16e09a382d2d6466/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ricky/.gradle/caches/transforms-3/c7c4277411ea7fac5a34b493e4dcd082/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+121-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ricky/.gradle/caches/transforms-3/c7c4277411ea7fac5a34b493e4dcd082/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+122                android:value="androidx.startup" />
+122-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/ricky/.gradle/caches/transforms-3/c7c4277411ea7fac5a34b493e4dcd082/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+123            <meta-data
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+124                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+124-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+125                android:value="androidx.startup" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+126        </provider>
+127
+128        <uses-library
+128-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:23:9-25:40
+129            android:name="androidx.window.extensions"
+129-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:24:13-54
+130            android:required="false" />
+130-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:25:13-37
+131        <uses-library
+131-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:26:9-28:40
+132            android:name="androidx.window.sidecar"
+132-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:27:13-51
+133            android:required="false" />
+133-->[androidx.window:window:1.3.0-beta01] /Users/ricky/.gradle/caches/transforms-3/18d560267bc4833ce347d698795d11c5/transformed/window-1.3.0-beta01/AndroidManifest.xml:28:13-37
+134
+135        <receiver
+135-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+136            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+137            android:directBootAware="false"
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+138            android:enabled="true"
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+139            android:exported="true"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+140            android:permission="android.permission.DUMP" >
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+141            <intent-filter>
+141-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+142                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+143            </intent-filter>
+144            <intent-filter>
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+145                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+146            </intent-filter>
+147            <intent-filter>
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+148                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+149            </intent-filter>
+150            <intent-filter>
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+151                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+151-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ricky/.gradle/caches/transforms-3/ed0028fa644ce2062b33dc7cd1973b32/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+152            </intent-filter>
+153        </receiver>
+154    </application>
+155
+156</manifest>
